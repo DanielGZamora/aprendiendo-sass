@@ -1,12 +1,16 @@
 body {
   background-color: #3b3d37;
 }
+
 body .container {
   width: 75%;
   color: #ffffff;
 }
+
 body .container h1 {
   color: #3cff00;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */

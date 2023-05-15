@@ -1,18 +1,16 @@
-
-$background-color: #211940;
-$font-general-color: #D9B3CA;
-$title-color: #3cff00;
-$font-general-color:#ffffff;
-$background-color: #3b3d37;
-$anchoContainer: 75%;
-
-body{
-    background-color: $background-color;
-    .container{
-        width: $anchoContainer;
-        color: $font-general-color;
-        h1{
-            color: $title-color;
-        }
-    }
+body {
+  background-color: #3b3d37;
 }
+
+body .container {
+  width: 75%;
+  color: #ffffff;
+}
+
+body .container h1 {
+  color: #3cff00;
+}
+
+
+
+/*# sourceMappingURL=style.scss.map */
