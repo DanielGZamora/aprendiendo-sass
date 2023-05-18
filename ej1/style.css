@@ -10,6 +10,26 @@ body .container {
 body .container h1 {
   color: #3cff00;
 }
+table{
+  box-sizing: border-box;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  width: 50%;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+  text-align: left;
+}
+td{
+  text-align: right;
+}
+
+
+
 
 
 

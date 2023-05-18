@@ -1,16 +1,12 @@
-body {
-  background-color: #3b3d37;
-}
+table{
+  @for $i from 1 through 10 {
 
-body .container {
-  width: 75%;
-  color: #ffffff;
-}
+      li:th,td(#{$i}){
+        color: random($limit: 1);
+      }
 
-body .container h1 {
-  color: #3cff00;
+  }
 }
-
 
 
 /*# sourceMappingURL=style.scss.map */
